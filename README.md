@@ -91,7 +91,7 @@ Idees clau: Anàlisis de dades amb Panda
 
 Atenció: és molt recomanable tenir un nivell mínim de programació amb Python. Si aquest llenguatge t'és familiar, et serà més fàcil seguir el curs, sobretot en els mòduls 3 i 4.
 
-# Introducció a la ciència de dades i a l'entorn de treball Jupyter Notebook
+## 1. Introducció a la ciència de dades i a l'entorn de treball Jupyter Notebook
 
 En aquest primer mòdul ens aproparem a què és la ciència de dades, els seus fonaments, les eines de treball més habituals, quines aplicacions té i quins camps professionals i de recerca la fan servir. També abordarem quin paper hi juga el llenguatge de programació Python.
 
@@ -114,8 +114,22 @@ Jupyter Notebook és una plataforma gratuïta i de font oberta molt popular per 
 
 Jupyter Notebook permet afegir i eliminar cel·les fàcilment. Les cel·les noves es poden col·locar allà on més ens convingui. L’aplicació també ens permet visualitzar la nostra feina mitjançant una previsualització i, fins i tot, exportar el fitxer a HTML, per tal que es pugui penjar en un web.
 
-# Exploració inicial a les dades
+## 2. Exploració inicial a les dades
 
 Després d’una introducció al món de la ciència de dades, és hora de començar a treballar-hi. El primer que farem serà estudiar les dades. Normalment, les dades ens arriben en forma de taula, amb files i columnes. Veurem  com importar o carregar una taula i com extreure ràpidament la informació general que conté. Per fer-ho, necessitarem aplicar unes funcions senzilles amb Python. Tota aquesta feina serà executada en el nostre nou entorn de programació Jupyter Notebook. Aquest primer pas és molt important i sempre l’haurem d’executar en qualsevol dels nostres projectes, independentment de la complexitat de les dades que fem servir en cada moment.
 
-També aprofundirem en els dos tipus de models predictius bàsics: el de regressió i el de classificació. Començarem, primer, des d’un punt de vista teòric o descriptiu i, després, agafarem experiència amb exercicis pràctics. Tot ho farem pas a pas
+També aprofundirem en els dos tipus de models predictius bàsics: el de regressió i el de classificació. Començarem, primer, des d’un punt de vista teòric o descriptiu i, després, agafarem experiència amb exercicis pràctics. Tot ho farem pas a pas.
+
+# Idees clau: Exploració inicial a les dades
+
+El més important abans de començar a fer servir cap model és entendre les dades que tractem, detectar els errors més comuns, identificar les cel·les sense dades i els valors allunyats. És una feina essencial trobar-los i netejar-los. Altrament, aquests afectarien negativament la qualitat dels models. Per tal de fer una exploració inicial de les dades, hem après a fer ús de funcions bàsiques com ara són head() i describe()
+
+Tenim dos tipus bàsics de model predictiu: el de regressió i el de classificació. El primer recull aquells models que procuren predir valors numèrics quantitatius, mentre que els models que formen part del segon tipus es fan servir quan el resultat és un valor qualitatiu.
+
+Tots els models necessiten que una part de la taula es faci servir per a l’entrenament. L’altra part restant es pot fer servir per mesurar si les prediccions dels models són prou bones o no. En els models de regressió lineal, el paràmetre de qualitat és el coeficient de regressió, mentre que, per a un model de classificació, és l’accuracy.
+
+## 3.Visualització de dades amb Matplotlib
+
+Per visualitzar les dades que tractem és útil aprendre a generar gràfics. Els gràfics són l’eina més poderosa per transmetre al públic no tècnic la nostra feina d’anàlisi de les dades: mostren visualment molta informació que d’altra manera podria passar desapercebuda.
+
+En aquest mòdul, aprendrem a construir gràfics lineals, de barra i de dispersió. Depenent del tipus de dades amb les qual estem treballant i les qüestions que volguem resoldre, en farem servir un o un altre. L’instrument que emprarem serà Matplotlib.
