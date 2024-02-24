@@ -133,3 +133,42 @@ Tots els models necessiten que una part de la taula es faci servir per a l’ent
 Per visualitzar les dades que tractem és útil aprendre a generar gràfics. Els gràfics són l’eina més poderosa per transmetre al públic no tècnic la nostra feina d’anàlisi de les dades: mostren visualment molta informació que d’altra manera podria passar desapercebuda.
 
 En aquest mòdul, aprendrem a construir gràfics lineals, de barra i de dispersió. Depenent del tipus de dades amb les qual estem treballant i les qüestions que volguem resoldre, en farem servir un o un altre. L’instrument que emprarem serà Matplotlib.
+
+## Ara et toca a tu! Representació gràfica de les dades
+
+Tenint en compte la taula de dades que et pots descarregar en format CSV a través del següent enllaç, respon a les qüestions següents:
+
+Nota: per tal de resoldre les qüestions, has d’importar els mòduls de Pandas, Matplotlib.pyplot i Seaborn.
+
+Quina regió té l’observació 4? Quin valor bmi mostra l’observació 2? L’observació 3 té sexe femení o masculí? Quin cost (charge) té l’observació 1?
+Quantes observacions (count) hi ha a la taula? Quina és la desviació std de la columna bmi? Quin és el cost (charges) mínim que té la taula? Quin és el nombre màxim de fills o filles que pot tenir una observació concreta?
+Genera un histograma per a la variable edats (age) i la variable cost (charge).
+Fes un gràfic de dispersió del cost (charges) davant de bmi i diferencia els punts obtinguts, depenent, primer, de si la persona és fumadora o no i, després, de si és de sexe masculí o femení.
+Crea un gràfic de dispersió dels valors bmi en relació, primer, amb el nombre de fills o filles (children) i, després, amb el sexe i, finalment, amb si fuma o no. Tingues present que hi ha una funció específica per crear gràfics de dispersió en els quals una variable és categòrica. El nombre de fills o filles, el sexe i si fuma o no ho són.
+ 
+
+Si veus que no pots resoldre tots els exercicis, la propera lliçó mostrarà com fer-ho.
+
+## Idees clau: Visualització de dades amb Marplotlib
+
+En aquest apartat, hem après a extreure informació de les dades mitjançant representacions gràfiques, les quals ens ajuden a visualitzar tendències i patrons amb només un cop d’ull.
+
+Concretament, hem treballat amb gràfics de línia, de barra i de dispersió.
+
+Els gràfics de línia mostren una línia continua que enllaça tots els punts que relacionen els valors de l’eix x i el valor de l’eix y corresponents.
+
+Els gràfics de barres són aquells que utilitzen barres, les quals representen l’altura que té un punt respecte l’eix x.
+
+Els gràfics de dispersió mostren els punts i les coordenades formades pel valor en l’eix x i el valor en l’eix y corresponent.
+
+Per tal de construir els diferents tipus de gràfics, hem treballat amb funcions dels mòduls Matplotlip.pyplot i Seaborn.
+
+El mòdul Pyplot proporciona funcions molt útils per generar els diferents gràfics. Per treballar amb gràfics de línia, farem servir plot(), de barra bar() i de dispersió scatter(). Aquestes funcions incorporen diferents paràmetres per configurar els gràfics. Per exemple, xlabel() dona nom a l’eix x, ylabel() a l’eix y, title() serveix per posar un títol, color() proporciona el color, linewidth() l’amplada de la línia, etc.
+
+# 4. Anàlisis de dades amb Panda
+
+Cada projecte, sigui gran o petit, incorporarà una base de dades amb la qual haurem de treballar. Independentment del volum, aquesta base de dades, probablement, requerirà una sèrie d’accions per tal de descobrir la informació rellevant i útil que conté.
+
+En aquest mòdul aprendrem a treballar i processar bases de dades. Sabrem com crear-ne una des de zero i, després, llegir-ne el contingut i escriure-hi de nou. Tot seguit, farem front al primer bloc d’operacions bàsiques de processament de base de dades, que estarà format per les accions de seleccionar, filtrar i indexar. A continuació, aprendrem a ordenar i agrupar dades i a gestionar dades no disponibles.
+
+Finalment, posarem a prova els nous coneixements amb un exercici pràctic. Certament, l’habilitat en saber gestionar bases de dades s’adquireix, primer, amb una bona base teòrica i, després, necessàriament, amb exercicis pràctics. Comencem!
