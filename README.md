@@ -172,3 +172,29 @@ Cada projecte, sigui gran o petit, incorporarà una base de dades amb la qual ha
 En aquest mòdul aprendrem a treballar i processar bases de dades. Sabrem com crear-ne una des de zero i, després, llegir-ne el contingut i escriure-hi de nou. Tot seguit, farem front al primer bloc d’operacions bàsiques de processament de base de dades, que estarà format per les accions de seleccionar, filtrar i indexar. A continuació, aprendrem a ordenar i agrupar dades i a gestionar dades no disponibles.
 
 Finalment, posarem a prova els nous coneixements amb un exercici pràctic. Certament, l’habilitat en saber gestionar bases de dades s’adquireix, primer, amb una bona base teòrica i, després, necessàriament, amb exercicis pràctics. Comencem!
+
+## Ara et toca a tu! Saber gestionar i processar les dades
+
+A continuació, es mostren diferent qüestions que cal resoldre de la taula “Insurance.csv”, que et pots descarregar en aquest enllaç.
+
+Nota: ja has treballat amb aquesta base de dades anteriorment.
+
+Imprimeix la taula que genera la funció describe() només des de la fila 45 fins a la 68. Calcula la suma dels valors bmi d’aquest interval i la mitjana dels charges.
+Del mateix interval de files del punt anterior, mostra només els primers 12 registres de manera ordenada en sentit descendent, segons els valors de bmi. Aplica, després, un segon nivell amb els valors de charges, mantenint, per a aquest, el sentit predeterminat i canviant el sentit del primer nivell per ordre ascendent.
+Torna a la base de dades principal i digues quantes persones fumadores hi ha a la zona northwest. Sabries dir la mitjana del nombre de fills o filles que hi ha a cada regió? Pots visualitzar les dades amb un gràfic?
+Torna a la base de dades principal i crea’n una de nova només amb aquelles files que tinguin un bmi superior a 35 i que no siguin persones fumadores. Com ho faries, si només es necessita complir una de les dues condicions? I, què passa, si afegim que l’edat ha de ser, obligatòriament, superior a 25 per ser una fila seleccionada, però mantenim que una de les dues primeres no és obligatòria?
+
+# Idees clau: Anàlisis de dades amb Panda
+En aquest mòdul hem après a treballar amb bases de dades i hem vist com poden ser de potents, si sabem com aplicar-hi diverses accions destinades a l’anàlisi de dades.
+
+Hem començat a construir-ne una des de zero, fent ús de la classe DataFrame. Després, hem vist com llegir i modificar bases de dades, tot accedint a les seves posicions.
+
+Aplicant els operadors iloc[] i loc[], podem crear bases de dades més petites, partint d’una base de dades principal.
+
+També hem après a seleccionar files, depenent d’una determinada condició, o més d’una, fet que ens permet filtrar la base de dades en relació amb els diferents valors que poden tenir els atributs o variables.
+
+Podem agrupar bases de dades entorn als valors d’una o més variables. Una vegada hem agrupat aquests valors, és possible aplicar diferents funcions com, per exemple, la mitjana, el nombre de casos o les desviacions d’aquestes agrupacions.
+
+Si vols descarregar-te el contingut del curs en català, fes clic aquí.
+
+Si quieres descargarte el contenido del curso en castellano, haz clic aquí.
